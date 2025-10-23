@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  width: 40px;
+  background-color: red;
+  border: 1px solid gray;
+  flex-grow: 1;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+main section:hover {
+  flex-grow: 3;
+}
+main section:nth-child(1) {
+  background-image: url(/images/0307e51ef940255bc06941c8a44cfbec.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(2) {
+  background-image: url(/images/24a0f2bba82f055071147c6ecfb4b893.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(3) {
+  background-image: url(/images/346945a46d869b8f9c9d96635b46f10e.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(4) {
+  background-image: url(/images/410500fd59f3dbcdacd750c99ab4bacb.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-child(5) {
+  background-image: url(/images/4c433fde4a10ce2f6a285545aaa3ade1.jpg);
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=style.css.map */

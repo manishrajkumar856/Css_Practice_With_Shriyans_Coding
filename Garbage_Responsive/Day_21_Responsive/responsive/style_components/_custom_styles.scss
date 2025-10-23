@@ -1,0 +1,11 @@
+@mixin customButton($bg-color:#54e1c0, $text-color: #312f2f, $btn-border: none, $text-size: 1.2rem, $btn-padding: 0.6rem 1.5rem, $weight:500){
+    background-color: $bg-color;
+    color: $text-color;
+    border: $btn-border;
+    border-radius: 5px;
+    font-size: $text-size;
+    padding: $btn-padding;
+    font-style: bold;
+    font-weight: $weight;
+    letter-spacing: 1px;
+}

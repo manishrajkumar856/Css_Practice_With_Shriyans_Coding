@@ -1,0 +1,12 @@
+
+// Partials and Imports : Used to divide the or seperate styles for improving readability Using it by Importing in main style.scss file ( @import "./customButton" )
+
+@mixin buttonXz($bg-col:#63b8e6, $fonts-size:15px, $text-color:white){
+    padding: 1rem 2.4rem;
+    outline: none;
+    border: none;
+    background-color: $bg-col;
+    font-size: $fonts-size;
+    color: $text-color;
+    border-radius: 50px;
+}
